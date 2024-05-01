@@ -1,2 +1,3 @@
-![PRICE LIST (3)](https://github.com/cheropower/cheropower.github.io/assets/80817093/0acc3f4a-c3b7-4506-99a8-676af17b8b9a)
+![PRICE LIST (4)](https://github.com/cheropower/cheropower.github.io/assets/80817093/ac7f6c58-a693-47fe-b6a8-5d614ffd4e88)
+
 
