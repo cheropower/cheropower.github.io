@@ -33,6 +33,9 @@
 */
 
 body {
-  background-image: linear-gradient(135deg, #fff886 10%, #f072b6 100%);
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  color: #514B64;
   min-height: 100vh;
 }
