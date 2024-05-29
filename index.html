@@ -159,18 +159,17 @@
 
 
 
-                   <div class="w3-container">
+          <div class="w3-container">
 
-
-
-<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align">Impressum</button>
-<div id="Demo1" class="w3-hide w3-container">
-    <p>Text1</p>
+  
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-left-align">Impressum</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <p>1</p>
 </div>
 
-<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align">Datenschutzerklärung</button>
-<div id="Demo2" class="w3-hide w3-container">
-    <p>Text2</p>
+<button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-left-align">Datenschutzerklärung</button>
+<div id="Demo2" class="w3-container w3-hide">
+  <p>2</p>
 </div>
 
 </div>
@@ -179,12 +178,8 @@ function myFunction(id) {
   var x = document.getElementById(id);
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace("w3-black", "w3-red");
   } else { 
     x.className = x.className.replace(" w3-show", "");
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace("w3-red", "w3-black");
   }
 }
 </script>
